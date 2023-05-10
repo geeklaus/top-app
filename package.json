@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-	"debug": "set NODE_OPTIONS=--inspect&&next dev",
+    "debug": "set NODE_OPTIONS=--inspect&&next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-	"stylelint": "stylelint \"**/*.css\" --fix"
+    "stylelint": "stylelint \"**/*.css\" --fix"
   },
   "dependencies": {
     "@next/font": "13.4.1",
+    "@types/classnames": "^2.3.1",
     "@types/node": "20.1.2",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
