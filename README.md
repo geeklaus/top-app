@@ -11,3 +11,6 @@ useState, useEffect, useReducer, useContext, useLayoutEffect
 
 # High Order Component (HOC)
 HOC - function taking function argument and returning another function
+
+# json to ts combination (don't forget to install the plugin json2ts)
+alt + ctrl + V
